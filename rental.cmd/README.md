@@ -56,6 +56,7 @@ There are three or more ways to start the app:
 
 ## Test your APISs
 - Application have basic Swagger documentation configured. You can test the APIs using swagger, Postman( or any other tool).
+- http://localhost:5000/swagger-ui/index.html 
 
 ## Unit and Integration tests are not covered here
 - I can understand how important is test covering for every application, but implementing CQRS design pattern and event sourcing

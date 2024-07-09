@@ -66,6 +66,7 @@ on green arrow, or control+Shift+R.
 
 ## Test your APISs
 - Application have basic Swagger documentation configured. You can test the APIs using swagger, Postman( or any other tool).
+- http://localhost:5001/swagger-ui/index.html
 
 ## Unit and Integration tests are not covered here
 - I can understand how important is test covering for every application, but implementing CQRS design pattern and event sourcing
