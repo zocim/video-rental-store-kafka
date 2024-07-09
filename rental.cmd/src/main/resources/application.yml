@@ -1,0 +1,25 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: rental-cmd
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: rentalStoreDb
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+rental:
+  query:
+    url: http://localhost:5001
+
+film:
+  price:
+    premium: 40
+    basic: 30
